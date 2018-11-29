@@ -1,0 +1,62 @@
+@font-face {
+	font-family: ninja;
+	src: url('fonts/njnaruto.ttf');
+}
+
+*,*:before,*;after {margin: 0;padding: 0;box-sizing: border-box;}
+
+.header-area {
+	background: url(img/ninjabg.jpg);
+	height: 100vh;
+}
+
+.logo-area img{
+	height: 150px;
+	width: 150px;
+	padding-top: 50px;
+	box-sizing: content-box;
+}
+ul#nav-mobile {
+    padding-left: 65px;
+}
+h3.admin {
+	margin: 0;
+	padding: 2px 0;
+}
+h6.admin-job {
+	margin: 0;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.container-custom {
+  background: rgba(0,0,0,0.2);
+}
+.about-me-section {
+	padding: 30px;
+}
+
+.about-me-section p {
+	font-size: 24px;
+}
+.simple-background {
+	text-align: center;
+
+}
+.simple-background h1{
+	padding-top: 30px;
+	margin-top: 0;
+	text-transform: capitalize;
+	color: white;
+	font-family: ninja;
+	letter-spacing: 10px;
+}
+.welcome {
+	margin: 3% 10%;
+	background: rgba(0,0,0,0.1);
+}
+
+.contact-form.col.s9.offset-s2 {
+	margin-top: 2%;
+	background: rgba(0,0,0,0.3);
+  padding: 15px;
+}
